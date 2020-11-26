@@ -48,6 +48,7 @@ public class GridLayoutFrame extends JFrame
 
         firstnameLabel = new JLabel("First Name:");
         firstnameTextfield = new JTextField("", 20);
+
         mainPanel.add(firstnameLabel);
         mainPanel.add(firstnameTextfield);
 

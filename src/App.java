@@ -20,11 +20,24 @@ public class App {
 //mainWindow.setSize(260, 180);
 //mainWindow.setVisible(true);
 
-JFrame mainWindow = new InputForm();
-mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-mainWindow.setSize(260, 180);
-mainWindow.setVisible(true);
+//JFrame mainWindow = new InputForm();
+//mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//mainWindow.setSize(260, 180);
+//mainWindow.setVisible(true);
 
+// OR this way
+
+//        JFrame mainWindow = new JFrame("Main App");
+//        mainWindow.setContentPane(new InputForm().getMainPanel());
+//        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        mainWindow.setSize(300,200);
+//        mainWindow.pack();
+//        mainWindow.setVisible(true);
+
+        JFrame mainWindow = new Calculator();
+        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainWindow.setSize(180, 180);
+        mainWindow.setVisible(true);
 
 //        JFrame mainWindow = new DesktopFrame();
 //        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -33,16 +46,7 @@ mainWindow.setVisible(true);
 //        mainWindow.setVisible(true);
 //
 
-//        JFrame mainWindow = new JFrame("Main App");
-//        mainWindow.setContentPane(new InputForm().getMainPanel());
-//        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        mainWindow.setSize(300,200);
-////        mainWindow.pack();
-//        mainWindow.setVisible(true);
 
-//        ArrayList<Integer> nums = new ArrayList<>();
-
-        
 
     }
 
