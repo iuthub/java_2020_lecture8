@@ -2,12 +2,13 @@ package gui;
 
 import javax.swing.*;
 
-public class LabelForm {
-    private JPanel mainPanel;
-    private JLabel label1Label;
-    private JLabel label2Label;
+public class LabelForm extends JFrame {
+    private JPanel rootPanel;
+    private JLabel label1;
+    private JLabel label2;
 
-    public JPanel getMainPanel() {
-        return mainPanel;
+    public LabelForm() {
+        super("Labels App");
+        add(rootPanel);
     }
 }

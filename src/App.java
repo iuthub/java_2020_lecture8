@@ -1,7 +1,5 @@
 import gui.*;
-
 import javax.swing.*;
-import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) {
@@ -12,10 +10,10 @@ public class App {
 //        JOptionPane.showMessageDialog(null,
 //                "Hello, " + firstName + " " + lastName,
 //                "Hello, World",
-//                JOptionPane.PLAIN_MESSAGE);
+//                JOptionPane.INFORMATION_MESSAGE);
 
 
-//JFrame mainWindow = new LabelFrame();
+//JFrame mainWindow = new BorderLayoutFrame();
 //mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //mainWindow.setSize(260, 180);
 //mainWindow.setVisible(true);
@@ -34,16 +32,16 @@ public class App {
 //        mainWindow.pack();
 //        mainWindow.setVisible(true);
 
-        JFrame mainWindow = new Calculator();
-        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        mainWindow.setSize(180, 180);
-        mainWindow.setVisible(true);
-
-//        JFrame mainWindow = new DesktopFrame();
+//        JFrame mainWindow = new MenuFrame();
 //        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        mainWindow.pack();
-//        mainWindow.setSize(600, 400);
+//        mainWindow.setSize(180, 180);
 //        mainWindow.setVisible(true);
+
+        JFrame mainWindow = new DesktopFrame();
+        mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainWindow.pack();
+        mainWindow.setSize(600, 400);
+        mainWindow.setVisible(true);
 //
 
 

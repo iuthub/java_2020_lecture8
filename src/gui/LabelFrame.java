@@ -21,6 +21,9 @@ public class LabelFrame extends JFrame
         super("Testing JLabel");
         setLayout(new FlowLayout()); // set frame layout
 
+        // || component1 -> component2 -> component3 ||
+        // || component4                             ||
+
         // JLabel constructor with a string argument
         label1 = new JLabel("Label with text");
         label1.setToolTipText("This is label1");

@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.LabelForm">
-  <grid id="27dc6" binding="mainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="197" height="52"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <component id="3165a" class="javax.swing.JLabel" binding="label1Label">
+      <component id="451b3" class="javax.swing.JLabel" binding="label1">
         <constraints/>
         <properties>
-          <text value="Label 1"/>
+          <text value="This is label 1"/>
+          <toolTipText value="You are hovering label 1"/>
         </properties>
       </component>
-      <component id="d289a" class="javax.swing.JLabel" binding="label2Label">
+      <component id="511e6" class="javax.swing.JLabel" binding="label2">
         <constraints/>
         <properties>
           <icon value="bug1.png"/>
-          <text value="Label 2"/>
-        </properties>
-      </component>
-      <component id="77168" class="javax.swing.JLabel">
-        <constraints/>
-        <properties>
-          <text value="Label 3"/>
+          <text value="This is label 2"/>
         </properties>
       </component>
     </children>
